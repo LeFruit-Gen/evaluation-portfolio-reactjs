@@ -33,9 +33,9 @@ function Footer() {
       <div className="footer-column">
         <h3>Dernières réalisations</h3>
         <ul>
-          <li><a href="/">Projet 1</a></li>
-          <li><a href="/" >Projet 2</a></li>
-          <li><a href="/" >Projet 3</a></li>
+          <li><a href="https://www.sante-forme.com/brand/3-sante-forme" target="_blank" rel="noopener noreferrer">Projet 1</a></li>
+          <li><a href="https://www.akirabackparis.com/fr/" target="_blank" rel="noopener noreferrer">Projet 2</a></li>
+          <li><a href="https://www.figma.com/design/FNZvL052NymrWl9ReB4VkH/maquette-probeats-cef?node-id=3-2&p=f&t=v6WYAy7z0d93O82o-0" target="_blank" rel="noopener noreferrer">Projet 3</a></li>
         </ul>
       </div>
     </footer>
