@@ -72,4 +72,3 @@ const ACCUEIL = () => {
 };
 
 export default ACCUEIL;
-
