@@ -1,0 +1,102 @@
+@use '../index.scss';
+
+/* Hero Section */
+.hero {
+  background-image: url('../../public/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
+  align-items: center;
+  color: var(--bs-light);
+  text-align: center;
+}
+.heroButton {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  opacity: 1;
+}
+.heroButton:hover {
+  background-color: var(--bs-blue-700);
+  transform: scale(1.1);
+}
+.heroButton:active {
+  transform: scale(1.1);
+}  
+
+/* Section principale */
+.aboutContainer {
+  box-shadow: 5px 5px 5px;
+  border: 1px solid var(--bs-dark);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  background-color:var(--bs-light);
+  border-radius: 8px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+  
+/* À propos */
+.about {
+  flex: 1;
+}
+.about h2 {
+  border-bottom: 2px solid var(--bs-primary);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.aboutImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.about p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Compétences */
+.skills {
+  flex: 1;
+}
+.skills h2 {
+  border-bottom: 2px solid var(--bs-primary);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.skill {
+  margin-bottom: 20px;
+}
+.skill p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.progress {
+  height: 20px;
+  border-radius: 10px;
+}
+.progress-bar {
+  height: 20px;
+  border-radius: 10px;
+}
+
+/* Affichage pour mobile */
+@media (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
