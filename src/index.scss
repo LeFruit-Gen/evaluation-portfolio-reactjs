@@ -16,9 +16,15 @@ h1, h2, h3, h4, h5, h6, strong {
 
 :root {
   --bs-light: #ffffff; // Couleur claire
+  --bs-white: #efefef; // Blanc grisé
   --bs-primary: #007bff; // Bleu principal
+  --bs-blue-700: #0056b3; // Bleu foncé
+  --bs-primary-light: #00aaff; //Bleu clair
+  --bs-secondary: #6c757d; // Gris secondaire
   --bs-success: #28a745; // Vert
   --bs-danger: #dc3545; // Rouge
   --bs-warning: #ffc107; // Jaune
   --bs-info: #17a2b8; // Bleu clair
+  --shadow-color: 0, 0, 0; /* Couleur noire sans opacité */
+  --shadow-opacity: 0.5;   /* Niveau de transparence */
 }
