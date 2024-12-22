@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+/* Styles globaux */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+
+:root {
+  --bs-light: #ffffff; // Couleur claire
+  --bs-primary: #007bff; // Bleu principal
+  --bs-success: #28a745; // Vert
+  --bs-danger: #dc3545; // Rouge
+  --bs-warning: #ffc107; // Jaune
+  --bs-info: #17a2b8; // Bleu clair
+}
